@@ -1,10 +1,14 @@
 public class Library {
     public static void main(String[] args) {
-        Book b1 = new Book("The Hobbit", "J.R.R. Tolkien");
-        Book b2 = new Book("1984", "George Orwell");
+        String name1 = "The Hobbit";
+        String author1 = "J.R.R. Tolkien";
+        String name2 = "1984";
+        String author2 = "George Orwell";
 
         System.out.println("Library Collection:");
-        b1.display();
-        b2.display();
+
+        System.out.println(name1 + " by " + author1);
+        System.out.println(name2 + " by " + author2);
+        
     }
 }
